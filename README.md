@@ -52,7 +52,7 @@ The project will run on `http://localhost:3000/` by default.
 
 ### 1️⃣ Clone Backend Repository
 ```sh
-git clone https://github.com/farroshayray/yo-trans-backend.git
+git clone https://github.com/farroshayray/yo-trans-be.git
 cd yo-trans-backend
 ```
 
