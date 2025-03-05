@@ -12,6 +12,7 @@ def test():
     return jsonify({'message': 'Hello, Transaction!'}), 200
 
 @transaction.route("/create", methods=["POST"])
+@jwt_required()
 def create_transaction():
     try:
         data = request.json
